@@ -14,7 +14,6 @@ The implementation consists of two main files:
 - `src/erc20.rs` - Core ERC20 implementation with all standard methods
 
 ### Token Configuration
-
 ```rust
 struct StylusTokenParams;
 
@@ -67,13 +66,6 @@ Stylus contracts offer significant gas savings compared to Solidity:
 - **Execution**: ~5-10x cheaper for compute-heavy operations
 - **Storage**: Similar costs to Solidity
 
-## Security Features
-
-- ✅ Integer overflow protection (built into Rust)
-- ✅ Proper access control patterns
-- ✅ Detailed error messages for debugging
-- ✅ Event emission for transparency
-- ✅ Standard ERC20 compliance
 
 ## Development
 
